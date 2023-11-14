@@ -7,20 +7,22 @@ import logo from '../assets/img/MuebleríaLuisPérezlogo.png'
 function NavigationBar() {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-         <img src={logo} alt='logo' style={{width: "130px", marginLeft: "2px"}}></img>
-          <Nav className="ms-auto">
-            <Navbar.Collapse>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#works">Trabajos</Nav.Link>
-            <Nav.Link href="#contact">Contacto</Nav.Link>
-            </Navbar.Collapse>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+<Navbar expand="lg" className="bg-dark">
+<Container>
+<img src={logo} alt='logo' style={{width: "130px", marginLeft: "2px"}}></img>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" className='text-center'/>
+  <Navbar.Collapse id="basic-navbar-nav " className='text-end'>
+    <Nav className="ms-auto " style={{gap:"14px"}}>
+      <Nav.Link href="#home" style={{color: "white"}}>Home</Nav.Link>
+      <Nav.Link href="#works" style={{color: "white"}}>Trabajos</Nav.Link>
+      <Nav.Link href="#contact" style={{color: "white"}}>Contacto</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Container>
+</Navbar>
+  </>
   );
 }
+
 
 export default NavigationBar;
