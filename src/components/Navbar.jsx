@@ -10,9 +10,9 @@ function NavigationBar() {
 <Navbar expand="lg" className="bg-dark">
 <Container>
 <img src={logo} alt='logo' style={{width: "130px", marginLeft: "2px"}}></img>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" className='text-center'/>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-center'/>
   <Navbar.Collapse id="basic-navbar-nav " className='text-end'>
-    <Nav className="ms-auto " style={{gap:"14px"}}>
+    <Nav className="ms-auto " style={{gap:"9px"}}>
       <Nav.Link href="#home" style={{color: "white"}}>Home</Nav.Link>
       <Nav.Link href="#works" style={{color: "white"}}>Trabajos</Nav.Link>
       <Nav.Link href="#contact" style={{color: "white"}}>Contacto</Nav.Link>
