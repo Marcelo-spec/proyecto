@@ -32,52 +32,52 @@ return(
     <p className="text-center">Desde puertas, ventanas, comedores, entre otros</p>
     <Container fluid className='text-center'>
     {/* Primera fila */}
-    <Row className='p-2'>
-      <Col><img src={banca} alt="banca" style={{width:'400px'}} /></Col>
-      <Col><img src={puerta} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col><img src={ventana} alt="ventana" style={{width:'400px'}} /></Col>
+    <Row>
+      <Col className='mt-4'><img src={banca} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={puerta} alt="puerta" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={ventana} alt="ventana" style={{width:'400px'}} /></Col>
     </Row>
 
     {/* Segunda fila */}
     <Row>
-      <Col><img src={botiquin} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={puertaDos} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col><img src={puertaTres} alt="puerta" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={botiquin} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={puertaDos} alt="puerta" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={puertaTres} alt="puerta" style={{width:'400px'}}/></Col>
     </Row>
 
     {/* Tercera fila */}
     <Row>
-      <Col><img src={puertaCuatro} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={sillas} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={mueble} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={puertaCuatro} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={sillas} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={mueble} alt="banca" style={{width:'400px'}} /></Col>
     </Row>
 
     {/* Cuarta fila */}
     <Row>
-      <Col><img src={comedor} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={puertaCinco} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={mesaDeCentro} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={comedor} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={puertaCinco} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={mesaDeCentro} alt="banca" style={{width:'400px'}} /></Col>
     </Row>
 
     {/* Quinta fila */}
     <Row>
-      <Col><img src={mesa} alt="banca" style={{width:'400px'}} /></Col>
-      <Col><img src={muebleDos} alt="banca" style={{width:'400px'}} /></Col>
-      <Col><img src={camarote} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={mesa} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={muebleDos} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={camarote} alt="banca" style={{width:'400px'}} /></Col>
     </Row>
 
     {/* Sexta fila */}
     <Row>
-      <Col><img src={muebleTres} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={puertaSeis} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={puertaSiete} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={muebleTres} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={puertaSeis} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={puertaSiete} alt="botiquin" style={{width:'400px'}}/></Col>
     </Row>
 
     {/* Séptima fila */}
     <Row>
-      <Col><img src={mamparas} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={ventanaDos} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col><img src={ventanaTres} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={mamparas} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={ventanaDos} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4 mb-2'><img src={ventanaTres} alt="botiquin" style={{width:'400px'}}/></Col>
     </Row>
   </Container>
     </div>
