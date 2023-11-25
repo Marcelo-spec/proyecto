@@ -21,6 +21,7 @@ import ventanaDos from '../assets/img/ventanaDos.jpeg'
 import ventanaTres from '../assets/img/ventanaTres.jpeg'
 import comedor from '../assets/img/comedor.jpeg'
 import mamparas from '../assets/img/mamparas.jpeg'
+import Footer from '../components/Footer'
 
 
 
@@ -54,16 +55,16 @@ return(
 
     {/* Cuarta fila */}
     <Row>
-      <Col className='mt-4'><img src={comedor} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={comedor} alt="botiquin" style={{width:'400px', height:'400px'}}/></Col>
       <Col className='mt-4'><img src={puertaCinco} alt="botiquin" style={{width:'400px'}}/></Col>
       <Col className='mt-4'><img src={mesaDeCentro} alt="banca" style={{width:'400px'}} /></Col>
     </Row>
 
     {/* Quinta fila */}
     <Row>
-      <Col className='mt-4'><img src={mesa} alt="banca" style={{width:'400px'}} /></Col>
-      <Col className='mt-4'><img src={muebleDos} alt="banca" style={{width:'400px'}} /></Col>
-      <Col className='mt-4'><img src={camarote} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={mesa} alt="banca" style={{width:'380px'}} /></Col>
+      <Col className='mt-4'><img src={muebleDos} alt="banca" style={{width:'400px', height:'280px'}} /></Col>
+      <Col className='mt-4'><img src={camarote} alt="banca" style={{width:'400px', height:'290px'}} /></Col>
     </Row>
 
     {/* Sexta fila */}
@@ -80,6 +81,7 @@ return(
       <Col className='mt-4 mb-2'><img src={ventanaTres} alt="botiquin" style={{width:'400px'}}/></Col>
     </Row>
   </Container>
+  <Footer/>
     </div>
   
 )

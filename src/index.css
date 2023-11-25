@@ -28,10 +28,26 @@ code {
     padding-top: 20px;
 }
 
+.footer {
+  position:bottom;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+
+}
+
 
 @media (min-width: 300px) {
 .textMain {
     width: 90%; 
   }
+
+}
+
+@media (max-width: 576px)
+{
+.footer {
+  position: static;
+}
 }
 
