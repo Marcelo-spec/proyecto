@@ -11,14 +11,10 @@ function NavigationBar() {
 <Navbar expand="lg" className="bg-dark">
 <Container>
 <img src={logo} alt='logo' style={{width: "130px", marginLeft: "2px"}}></img>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-primary text-center'/>
-  <Navbar.Collapse id="basic-navbar-nav " className='text-end'>
     <Nav className="ms-auto" style={{gap:"9px",}}>
-    <Link to ='/' style={{textDecoration:"none", color:"#ffffff"}}>Home</Link>
+    <Link to ='/' style={{textDecoration:"none", color:"#ffffff"}}>Sobre mi</Link>
     <Link to='/works' style={{textDecoration:"none", color:"#ffffff"}}>Trabajos</Link>
-    <Link to='/contact' style={{textDecoration:"none", color:"#ffffff"}}>Contacto</Link>
     </Nav>
-  </Navbar.Collapse>
 </Container>
 </Navbar>
   </>
