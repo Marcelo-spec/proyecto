@@ -23,7 +23,7 @@ function Footer() {
 
             <p>
              Puedes contactarte conmigo para servicios en mueblería a medida y con diseños personalizados,
-             también se ofrece servicio de gasfitería, electricidad básica
+             también se ofrece servicio de gasfitería, mantención y reparación a mobiliario, electricidad básica y cerrajería
             </p>
           </MDBCol>
 
