@@ -20,6 +20,8 @@ code {
 }
 
 .textMain {
+  color: #000000;
+    font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     max-width: 100%; 
     width: 800px;

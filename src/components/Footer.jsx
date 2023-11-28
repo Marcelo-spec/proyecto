@@ -15,7 +15,7 @@ function Footer() {
   const emailAddress = 'luisperezmuebles@gmail.com';
 
   return (
-    <MDBFooter className='footer bg-dark text-white text-center'>
+    <MDBFooter className='footer bg-dark text-white text-center mt-2'>
       <MDBContainer className='p-4'>
         <MDBRow>
           <MDBCol lg="6" md="12" className='mb-4 mb-md-0'>
