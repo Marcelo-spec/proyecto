@@ -1,25 +1,57 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import logo from '../assets/img/MuebleríaLuisPérezlogo.png'
-import {Link} from 'react-router-dom'
- 
+import logo from '../assets/img/MuebleríaLuisPérezlogo.png';
+
 function NavigationBar() {
+  const location = useLocation();
+
+  const getNavbarContent = () => {
+    if (location.pathname === '/') {
+      // Página de inicio
+      return (
+        <Nav className="ms-auto" style={{ gap: '9px' }}>
+          <Link to="/works" style={{ textDecoration: 'none', color: '#ffffff' }}>
+            Ver Trabajos
+          </Link>
+        </Nav>
+      );
+    } else if (location.pathname === '/works') {
+      // Página de trabajos
+      return (
+        <Nav className="ms-auto" style={{ gap: '9px' }}>
+          <Link to="/" style={{ textDecoration: 'none', color: '#ffffff' }}>
+            Volver
+          </Link>
+        </Nav>
+      );
+    }
+
+    // Por defecto, si no coincide con ninguna ruta conocida, muestra el Navbar de la página de inicio
+    return (
+      <Nav className="ms-auto" style={{ gap: '9px' }}>
+        <Link to="/" style={{ textDecoration: 'none', color: '#ffffff' }}>
+          Volver
+        </Link>
+        <Link to="/works" style={{ textDecoration: 'none', color: '#ffffff' }}>
+          Ver Trabajos
+        </Link>
+      </Nav>
+    );
+  };
+
   return (
     <>
-<Navbar expand="lg" className="bg-dark">
-<Container>
-<img src={logo} alt='logo' style={{width: "130px", marginLeft: "2px"}}></img>
-    <Nav className="ms-auto" style={{gap:"9px",}}>
-    <Link to ='/' style={{textDecoration:"none", color:"#ffffff"}}>Sobre mi</Link>
-    <Link to='/works' style={{textDecoration:"none", color:"#ffffff"}}>Trabajos</Link>
-    </Nav>
-</Container>
-</Navbar>
-  </>
+      <Navbar expand="lg" className="bg-dark">
+        <Container>
+          <img src={logo} alt="logo" style={{ width: '130px', marginLeft: '2px' }}></img>
+          {getNavbarContent()}
+        </Container>
+      </Navbar>
+    </>
   );
 }
-
 
 export default NavigationBar;
