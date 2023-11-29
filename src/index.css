@@ -16,6 +16,7 @@ code {
 
 
 .textletter {
+  font-weight: bold;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -31,6 +32,7 @@ code {
 }
 
 .footer {
+  font-family: 'Open Sans', sans-serif;
   position:bottom;
   bottom: 0;
   width: 100%;

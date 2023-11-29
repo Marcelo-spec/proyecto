@@ -20,16 +20,17 @@ import muebleTres from '../assets/img/muebleTres.jpeg'
 import ventanaDos from '../assets/img/ventanaDos.jpeg'
 import ventanaTres from '../assets/img/ventanaTres.jpeg'
 import comedor from '../assets/img/comedor.jpeg'
-import mamparas from '../assets/img/mamparas.jpeg'
-import Footer from '../components/Footer'
-
+import muebleCuatro from '../assets/img/muebleCuatro.jpeg'
+import muebleCinco from '../assets/img/muebleCinco.jpeg'
+import muebleSeis from '../assets/img/muebleSeis.jpeg'
+import muebleSiete from '../assets/img/muebleSiete.jpeg'
 
 
 function text() {
 return(
     <div className="textletter">
     <h1 className="text-center pt-2">Trabajos</h1>
-    <p className="text-center">Aqui puedes ver ejemplos variados de trabajos realizados</p>
+    <p className="text-center">Aquí puedes ver ejemplos variados de trabajos realizados</p>
     <p className="text-center">Desde puertas, ventanas, comedores, entre otros</p>
     <Container fluid className='text-center'>
     {/* Primera fila */}
@@ -76,12 +77,18 @@ return(
 
     {/* Séptima fila */}
     <Row>
-      <Col className='mt-4'><img src={mamparas} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={muebleCuatro} alt="botiquin" style={{width:'380px'}}/></Col>
       <Col className='mt-4'><img src={ventanaDos} alt="botiquin" style={{width:'400px'}}/></Col>
       <Col className='mt-4 mb-2'><img src={ventanaTres} alt="botiquin" style={{width:'400px'}}/></Col>
     </Row>
+
+     {/* Octava fila */}
+     <Row>
+      <Col className='mt-4'><img src={muebleCinco} alt="botiquin" style={{width:'420px'}}/></Col>
+      <Col className='mt-4'><img src={muebleSeis} alt="botiquin" style={{width:'400px'}}/></Col>
+      <Col className='mt-4 mb-2'><img src={muebleSiete} alt="botiquin" style={{width:'400px'}}/></Col>
+    </Row>
   </Container>
-  <Footer/>
     </div>
   
 )
