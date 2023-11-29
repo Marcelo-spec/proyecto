@@ -61,7 +61,7 @@ code {
 
 @media screen and (max-width: 600px) {
   .mobileversion {
-    max-width: 360px;
+    max-width: 340px;
 
   }
 }
