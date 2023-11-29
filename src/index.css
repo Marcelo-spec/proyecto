@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body, html {
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
@@ -7,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -55,3 +59,9 @@ code {
 }
 }
 
+@media screen and (max-width: 600px) {
+  .mobileversion {
+    max-width: 360px;
+
+  }
+}

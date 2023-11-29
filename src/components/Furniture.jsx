@@ -35,58 +35,58 @@ return(
     <Container fluid className='text-center'>
     {/* Primera fila */}
     <Row>
-      <Col className='mt-4'><img src={banca} alt="banca" style={{width:'400px'}} /></Col>
-      <Col className='mt-4'><img src={puerta} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={ventana} alt="ventana" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={banca} alt="banca" style={{width:'400px'}} className="mobileversion" /></Col>
+      <Col className='mt-4'><img src={puerta} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={ventana} alt="ventana" style={{width:'400px'}} className="mobileversion" /></Col>
     </Row>
 
     {/* Segunda fila */}
     <Row>
-      <Col className='mt-4'><img src={botiquin} alt="botiquin" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={puertaDos} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={puertaTres} alt="puerta" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={botiquin} alt="botiquin" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={puertaDos} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={puertaTres} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
     </Row>
 
     {/* Tercera fila */}
     <Row>
-      <Col className='mt-4'><img src={puertaCuatro} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={sillas} alt="silla" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={mueble} alt="banca" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={puertaCuatro} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={sillas} alt="silla" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={mueble} alt="banca" style={{width:'400px'}} className="mobileversion" /></Col>
     </Row>
 
     {/* Cuarta fila */}
     <Row>
-      <Col className='mt-4'><img src={comedor} alt="comedor" style={{width:'400px', height:'400px'}}/></Col>
-      <Col className='mt-4'><img src={puertaCinco} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={mesaDeCentro} alt="mesa" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={comedor} alt="comedor" style={{width:'400px', height:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={puertaCinco} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={mesaDeCentro} alt="mesa" style={{width:'400px'}} className="mobileversion" /></Col>
     </Row>
 
     {/* Quinta fila */}
     <Row>
       <Col className='mt-4'><img src={mesa} alt="mesa" style={{width:'380px'}} /></Col>
-      <Col className='mt-4'><img src={muebleDos} alt="mueble" style={{width:'400px', height:'280px'}} /></Col>
-      <Col className='mt-4'><img src={camarote} alt="camarote" style={{width:'400px', height:'290px'}} /></Col>
+      <Col className='mt-4'><img src={muebleDos} alt="mueble" style={{width:'400px', height:'280px'}} className="mobileversion" /></Col>
+      <Col className='mt-4'><img src={camarote} alt="camarote" style={{width:'400px', height:'290px'}} className="mobileversion" /></Col>
     </Row>
 
     {/* Sexta fila */}
     <Row>
-      <Col className='mt-4'><img src={muebleTres} alt="mueble" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={puertaSeis} alt="puerta" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={puertaSiete} alt="puerta" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={muebleTres} alt="mueble" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={puertaSeis} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={puertaSiete} alt="puerta" style={{width:'400px'}} className="mobileversion"/></Col>
     </Row>
 
     {/* Séptima fila */}
     <Row>
-      <Col className='mt-4'><img src={muebleCuatro} alt="mueble" style={{width:'380px'}}/></Col>
-      <Col className='mt-4'><img src={ventanaDos} alt="ventana" style={{width:'400px'}}/></Col>
-      <Col className='mt-4 mb-2'><img src={ventanaTres} alt="ventana" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={muebleCuatro} alt="mueble" style={{width:'380px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={ventanaDos} alt="ventana" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4 mb-2'><img src={ventanaTres} alt="ventana" style={{width:'400px'}} className="mobileversion"/></Col>
     </Row>
 
      {/* Octava fila */}
      <Row>
-      <Col className='mt-4'><img src={muebleCinco} alt="mueble" style={{width:'420px'}}/></Col>
-      <Col className='mt-4'><img src={muebleSeis} alt="mueble" style={{width:'400px'}}/></Col>
-      <Col className='mt-4 mb-2'><img src={muebleSiete} alt="mueble" style={{width:'400px'}}/></Col>
+      <Col className='mt-4'><img src={muebleCinco} alt="mueble" style={{width:'420px'}} className="mobileversion"/></Col>
+      <Col className='mt-4'><img src={muebleSeis} alt="mueble" style={{width:'400px'}} className="mobileversion"/></Col>
+      <Col className='mt-4 mb-2'><img src={muebleSiete} alt="mueble" style={{width:'400px'}} className="mobileversion"/></Col>
     </Row>
   </Container>
     </div>
