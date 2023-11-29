@@ -51,7 +51,7 @@ return(
     <Row>
       <Col className='mt-4'><img src={puertaCuatro} alt="puerta" style={{width:'400px'}}/></Col>
       <Col className='mt-4'><img src={sillas} alt="silla" style={{width:'400px'}}/></Col>
-      <Col className='mt-4'><img src={mueble} alt="mueble" style={{width:'400px'}} /></Col>
+      <Col className='mt-4'><img src={mueble} alt="banca" style={{width:'400px'}} /></Col>
     </Row>
 
     {/* Cuarta fila */}
