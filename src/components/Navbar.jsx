@@ -13,12 +13,12 @@ function NavigationBar() {
       // Página de inicio
       return (
         <Nav className="ms-auto" style={{ gap: '9px' }}>
-          <Link to="/works" style={{ textDecoration: 'none', color: '#ffffff' }}>
+          <Link to="/Trabajos" style={{ textDecoration: 'none', color: '#ffffff' }}>
             Ver Trabajos
           </Link>
         </Nav>
       );
-    } else if (location.pathname === '/works') {
+    } else if (location.pathname === '/Trabajos') {
       // Página de trabajos
       return (
         <Nav className="ms-auto" style={{ gap: '9px' }}>
@@ -35,7 +35,7 @@ function NavigationBar() {
         <Link to="/" style={{ textDecoration: 'none', color: '#ffffff' }}>
           Volver
         </Link>
-        <Link to="/works" style={{ textDecoration: 'none', color: '#ffffff' }}>
+        <Link to="/Trabajos" style={{ textDecoration: 'none', color: '#ffffff' }}>
           Ver Trabajos
         </Link>
       </Nav>
